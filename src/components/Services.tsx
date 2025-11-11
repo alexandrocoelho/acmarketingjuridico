@@ -1,4 +1,4 @@
-import { Megaphone, PenTool, TrendingUp, Camera, CheckCircle } from "lucide-react";
+import { Megaphone, PenTool, TrendingUp, Camera, CheckCircle, Briefcase, MapPin } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Services = () => {
@@ -42,6 +42,26 @@ const Services = () => {
         "Edição profissional de vídeos",
         "Motion graphics e animações"
       ]
+    },
+    {
+      icon: Briefcase,
+      title: "Gestão de Escritório",
+      description: "Otimização completa da gestão e processos do seu escritório jurídico para máxima eficiência.",
+      features: [
+        "Automação de processos administrativos",
+        "Implementação de sistemas de gestão",
+        "Organização de fluxos de trabalho"
+      ]
+    },
+    {
+      icon: MapPin,
+      title: "Gestão de Google Business Profile",
+      description: "Otimização do seu perfil no Google para aparecer nas buscas locais e atrair mais clientes.",
+      features: [
+        "Otimização completa do perfil",
+        "Gestão de avaliações e reputação",
+        "Estratégias de SEO local"
+      ]
     }
   ];
 
@@ -57,7 +77,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <Card key={index} className="bg-secondary border-border hover:border-primary transition-all duration-300">
               <CardHeader>

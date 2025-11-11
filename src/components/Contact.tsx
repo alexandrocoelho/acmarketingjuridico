@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Mail, Instagram } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
@@ -42,12 +43,22 @@ const Contact = () => {
 
         <div className="pt-12 flex justify-center gap-6">
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/alexandrocoelhojr"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors"
+            className="text-muted-foreground hover:text-primary transition-colors flex flex-col items-center gap-2"
           >
             <Instagram className="w-6 h-6" />
+            <span className="text-sm">@alexandrocoelhojr</span>
+          </a>
+          <a
+            href="https://tiktok.com/@alexandrocoelhojr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors flex flex-col items-center gap-2"
+          >
+            <SiTiktok className="w-6 h-6" />
+            <span className="text-sm">@alexandrocoelhojr</span>
           </a>
         </div>
 
