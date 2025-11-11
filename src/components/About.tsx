@@ -29,24 +29,8 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className={`space-y-8 ${isVisible ? "animate-slide-in-right" : "opacity-0"}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            Conheça o <span className="text-primary">Especialista</span>
+            Por Que Escolher um <span className="text-primary">Especialista</span>?
           </h2>
-
-          <div className="prose prose-invert max-w-none space-y-6">
-            <p className="text-lg leading-relaxed text-muted-foreground">
-              Olá! Sou <span className="text-foreground font-semibold">Alexandro Coelho</span>, tenho 23 anos e sou bacharel em Direito. 
-              Como especialista em Marketing Jurídico e pós-graduando em Direito Digital, Gestão de Marketing Digital, 
-              Mídias Sociais e Inteligência Comercial, dedico meu trabalho a criar e valorizar a imagem de advogados 
-              que desejam se destacar no mercado.
-            </p>
-
-            <p className="text-lg leading-relaxed text-muted-foreground">
-              Meu foco é claro: ajudar advogados a construírem uma imagem de valor e autoridade no ambiente digital, 
-              gerando crescimento real e sustentável para suas carreiras. Através de estratégias personalizadas e 
-              uso inteligente de tecnologia, transformo a presença digital em uma poderosa ferramenta de captação 
-              de clientes e fortalecimento da marca pessoal.
-            </p>
-          </div>
 
           <div className="grid md:grid-cols-3 gap-6 mt-12">
             <div className="p-6 rounded-lg bg-card border border-border space-y-3">
