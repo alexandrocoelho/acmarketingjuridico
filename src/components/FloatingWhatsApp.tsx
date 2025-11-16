@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const FloatingWhatsApp = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de saber mais sobre os serviços de Marketing Jurídico.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, "_blank");
+    window.open(`https://wa.me/5527999915060?text=${message}`, "_blank");
   };
 
   return (
