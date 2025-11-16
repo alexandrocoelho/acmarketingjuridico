@@ -60,23 +60,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Social proof section */}
-          <div className="pt-12 border-t border-border/30 mt-16">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-bold text-gold">+150</p>
-                <p className="text-sm text-muted-foreground uppercase tracking-wide">Advogados Atendidos</p>
-              </div>
-              <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-bold text-gold">+300%</p>
-                <p className="text-sm text-muted-foreground uppercase tracking-wide">Crescimento Médio</p>
-              </div>
-              <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-bold text-gold">5 Anos</p>
-                <p className="text-sm text-muted-foreground uppercase tracking-wide">Experiência no Mercado</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
