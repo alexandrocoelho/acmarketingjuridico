@@ -12,44 +12,70 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-16 px-4 bg-gradient-hero overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,_hsl(45_95%_55%_/_0.1),_transparent_50%)]" />
+    <section className="relative min-h-screen flex items-center justify-center pt-32 pb-24 px-4 bg-gradient-hero overflow-hidden">
+      {/* Subtle gradient overlays */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_hsl(45_90%_60%_/_0.08),_transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_hsl(45_90%_60%_/_0.05),_transparent_60%)]" />
       
-      <div className="container mx-auto max-w-6xl relative z-10">
-        <div className="text-center space-y-8 animate-fade-in-up">
-          <div className="space-y-4">
-            <p className="text-primary text-sm md:text-base font-semibold tracking-wider uppercase">
+      <div className="container mx-auto max-w-7xl relative z-10">
+        <div className="text-center space-y-12 animate-fade-in-up">
+          <div className="space-y-8">
+            <p className="text-gold text-sm md:text-base font-bold tracking-[0.2em] uppercase">
               Marketing Jurídico Estratégico
             </p>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              Posicionamento Digital{" "}
+            
+            {/* Main title with glow effect */}
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] tracking-tight">
+              <span className="block">Posicionamento Digital</span>
               <span className="block">Estratégico para</span>
-              <span className="text-primary block">Advogados de Alta Performance</span>
+              <span className="text-gold block mt-2" style={{ textShadow: '0 0 40px hsl(45 90% 60% / 0.4)' }}>
+                Advogados
+              </span>
             </h1>
-            <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+            
+            <p className="text-muted-foreground text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed font-light">
               Transforme sua presença digital em autoridade, atraia clientes de alto valor e 
               destaque-se no mercado jurídico com estratégias personalizadas e resultados mensuráveis.
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          {/* CTAs with improved spacing */}
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-4">
             <Button
               onClick={handleWhatsAppClick}
               size="lg"
-              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold text-lg px-8 py-6 shadow-glow group"
+              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
             >
-              <MessageCircle className="mr-2 w-5 h-5" />
-              Receber Diagnóstico Gratuito do Meu Perfil
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <MessageCircle className="mr-2 w-6 h-6" />
+              Quero Resultados Concretos
+              <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
               onClick={scrollToServices}
               size="lg"
               variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8 py-6"
+              className="border-2 border-gold text-gold hover:bg-gold hover:text-gold-foreground font-bold text-lg px-10 py-7 transition-all duration-300"
             >
               Descobrir Meu Potencial Digital
             </Button>
+          </div>
+
+          {/* Social proof section */}
+          <div className="pt-12 border-t border-border/30 mt-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="space-y-2">
+                <p className="text-4xl md:text-5xl font-bold text-gold">+150</p>
+                <p className="text-sm text-muted-foreground uppercase tracking-wide">Advogados Atendidos</p>
+              </div>
+              <div className="space-y-2">
+                <p className="text-4xl md:text-5xl font-bold text-gold">+300%</p>
+                <p className="text-sm text-muted-foreground uppercase tracking-wide">Crescimento Médio</p>
+              </div>
+              <div className="space-y-2">
+                <p className="text-4xl md:text-5xl font-bold text-gold">5 Anos</p>
+                <p className="text-sm text-muted-foreground uppercase tracking-wide">Experiência no Mercado</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
