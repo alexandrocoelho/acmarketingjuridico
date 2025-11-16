@@ -4,7 +4,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 const Hero = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consultoria gratuita.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, "_blank");
+    window.open(`https://wa.me/5527999915060?text=${message}`, "_blank");
   };
 
   const scrollToServices = () => {
@@ -22,13 +22,13 @@ const Hero = () => {
               Marketing Jurídico Estratégico
             </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              Transforme Sua Imagem{" "}
-              <span className="block">Profissional em</span>
-              <span className="text-primary block">Autoridade no Mercado</span>
+              Posicionamento Digital{" "}
+              <span className="block">Estratégico para</span>
+              <span className="text-primary block">Advogados de Alta Performance</span>
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              Especialista em posicionamento digital para advogados que buscam crescimento,
-              credibilidade e resultados reais através de estratégias personalizadas.
+              Transforme sua presença digital em autoridade, atraia clientes de alto valor e 
+              destaque-se no mercado jurídico com estratégias personalizadas e resultados mensuráveis.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ const Hero = () => {
               className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold text-lg px-8 py-6 shadow-glow group"
             >
               <MessageCircle className="mr-2 w-5 h-5" />
-              Agendar Consultoria Gratuita
+              Receber Diagnóstico Gratuito do Meu Perfil
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -48,7 +48,7 @@ const Hero = () => {
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8 py-6"
             >
-              Conheça os Serviços
+              Descobrir Meu Potencial Digital
             </Button>
           </div>
         </div>

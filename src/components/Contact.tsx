@@ -5,7 +5,7 @@ import { SiTiktok } from "react-icons/si";
 const Contact = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consultoria sobre Marketing Jurídico.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, "_blank");
+    window.open(`https://wa.me/5527999915060?text=${message}`, "_blank");
   };
 
   return (
