@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import { BackgroundPaths } from "@/components/ui/background-paths";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -13,6 +14,9 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-32 pb-24 px-4 bg-gradient-hero overflow-hidden">
+      {/* Animated background paths */}
+      <BackgroundPaths />
+      
       {/* Subtle gradient overlays */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_hsl(45_90%_60%_/_0.08),_transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_hsl(45_90%_60%_/_0.05),_transparent_60%)]" />
