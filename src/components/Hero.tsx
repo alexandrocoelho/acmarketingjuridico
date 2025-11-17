@@ -51,7 +51,7 @@ const Hero = () => {
               className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
             >
               <MessageCircle className="mr-2 w-6 h-6" />
-              Quero Resultados Concretos
+              Quero subir o nível
               <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -60,7 +60,7 @@ const Hero = () => {
               variant="outline"
               className="border-2 border-gold text-gold hover:bg-gold hover:text-gold-foreground font-bold text-lg px-10 py-7 transition-all duration-300"
             >
-              Descobrir Meu Potencial Digital
+              Quero entender melhor
             </Button>
           </div>
 
