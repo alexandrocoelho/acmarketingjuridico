@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
 const Hero = () => {
@@ -50,7 +51,7 @@ const Hero = () => {
               size="lg"
               className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
             >
-              <MessageCircle className="mr-2 w-6 h-6" />
+              <FaWhatsapp className="mr-2 w-6 h-6" />
               Quero subir o nível
               <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Button>
