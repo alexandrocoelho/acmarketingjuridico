@@ -70,7 +70,7 @@ const Services = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Serviços <span className="text-primary">Oferecidos</span>
+            Serviços <span className="text-primary">oferecidos</span>
           </h2>
           <p className="text-muted-foreground text-xl max-w-2xl mx-auto">
             Soluções completas para posicionar você como autoridade no mercado jurídico

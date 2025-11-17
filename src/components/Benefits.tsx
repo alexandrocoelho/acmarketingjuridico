@@ -40,7 +40,7 @@ const Benefits = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Por Que <span className="text-primary">Contratar?</span>
+            Por que <span className="text-primary">contratar?</span>
           </h2>
           <p className="text-muted-foreground text-xl max-w-2xl mx-auto">
             Vantagens exclusivas que vão transformar sua presença digital e alavancar sua carreira jurídica

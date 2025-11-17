@@ -38,7 +38,7 @@ const FAQ = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Perguntas <span className="text-primary">Frequentes</span>
+            Perguntas <span className="text-primary">frequentes</span>
           </h2>
           <p className="text-muted-foreground text-xl">
             Tire suas dúvidas sobre nossos serviços
