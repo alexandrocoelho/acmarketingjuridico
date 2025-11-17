@@ -48,8 +48,8 @@ const Services = () => {
       title: "Gestão de Escritório",
       description: "Otimização completa da gestão e processos do seu escritório jurídico para máxima eficiência.",
       features: [
-        "Automação de processos administrativos",
-        "Implementação de sistemas de gestão",
+        "Automação de processos",
+        "Gestão comercial inteligente",
         "Organização de fluxos de trabalho"
       ]
     },

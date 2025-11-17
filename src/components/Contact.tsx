@@ -12,7 +12,7 @@ const Contact = () => {
     <section id="contato" className="py-20 px-4 bg-gradient-hero">
       <div className="container mx-auto max-w-4xl text-center space-y-8">
         <h2 className="text-4xl md:text-5xl font-bold">
-          Pronto Para <span className="text-primary">Decolar?</span>
+          Pronto para <span className="text-primary">decolar?</span>
         </h2>
         
         <p className="text-muted-foreground text-xl max-w-2xl mx-auto">
@@ -34,7 +34,7 @@ const Contact = () => {
             size="lg"
             variant="outline"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8 py-6"
-            onClick={() => window.location.href = "mailto:contato@acmarketingjuridico.com.br"}
+            onClick={() => window.location.href = "mailto:alexandrocoelhopjr@gmail.com"}
           >
             <Mail className="mr-2 w-5 h-5" />
             Enviar E-mail
