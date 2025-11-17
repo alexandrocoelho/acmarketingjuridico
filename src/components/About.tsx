@@ -29,7 +29,7 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className={`space-y-8 ${isVisible ? "animate-slide-in-right" : "opacity-0"}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            Por Que Escolher um <span className="text-primary">Especialista</span>?
+            Por que escolher um <span className="text-primary">especialista</span>?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6 mt-12">

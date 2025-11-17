@@ -6,7 +6,7 @@ const BehindResults = () => {
     <section className="py-20 px-4 bg-card">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          Quem Está Por Trás <span className="text-primary">Dos Resultados</span>
+          Quem está por trás <span className="text-primary">dos resultados</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">

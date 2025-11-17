@@ -28,7 +28,7 @@ const Testimonials = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold">
-            O Que Dizem Nossos <span className="text-primary">Clientes</span>
+            O que dizem nossos <span className="text-primary">clientes</span>
           </h2>
           <p className="text-muted-foreground text-xl">
             Resultados reais de advogados que transformaram sua presença digital
