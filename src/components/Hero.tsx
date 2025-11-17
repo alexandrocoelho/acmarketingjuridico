@@ -30,10 +30,10 @@ const Hero = () => {
             
             {/* Main title with glow effect */}
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] tracking-tight">
-              <span className="block">Posicionamento Digital</span>
-              <span className="block">Estratégico para</span>
+              <span className="block">Posicionamento digital</span>
+              <span className="block">estratégico para</span>
               <span className="text-gold block mt-2" style={{ textShadow: '0 0 40px hsl(45 90% 60% / 0.4)' }}>
-                Advogados
+                advogados
               </span>
             </h1>
             
