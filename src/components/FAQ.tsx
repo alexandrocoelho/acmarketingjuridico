@@ -28,8 +28,32 @@ const FAQ = () => {
       answer: "O investimento varia de acordo com os serviços contratados e os objetivos do seu escritório. Na consultoria gratuita, apresentamos um plano personalizado com valores transparentes, sem custos ocultos. Temos soluções para diferentes perfis e orçamentos."
     },
     {
-      question: "Posso cancelar os serviços a qualquer momento?",
-      answer: "Sim! Trabalhamos com transparência total. Não há fidelidade obrigatória. Nosso objetivo é entregar tanto valor que você queira continuar conosco por escolha, não por contrato."
+      question: "Vocês trabalham com planos personalizados?",
+      answer: "Sim! Cada escritório tem necessidades únicas. Por isso, criamos estratégias 100% personalizadas baseadas no seu nicho de atuação, objetivos, orçamento e momento atual. Não trabalhamos com pacotes prontos, mas com soluções sob medida."
+    },
+    {
+      question: "Eu preciso enviar ideias de conteúdo ou vocês criam tudo?",
+      answer: "Nós podemos criar todo o conteúdo estratégico para você, desde o planejamento até a execução. Mas se você tiver ideias ou preferir participar ativamente do processo, trabalhamos em conjunto. A escolha é sua!"
+    },
+    {
+      question: "Esse serviço é para advogados iniciantes ou apenas para escritórios grandes?",
+      answer: "Atendemos advogados em todos os estágios da carreira! Desde profissionais que estão começando e querem construir sua marca do zero, até escritórios estabelecidos que desejam expandir e consolidar sua autoridade digital."
+    },
+    {
+      question: "Como o posicionamento digital ajuda meu escritório a se diferenciar da concorrência?",
+      answer: "O posicionamento digital estratégico torna você referência no seu nicho. Através de conteúdo de valor, presença consistente e comunicação autêntica, você constrói autoridade, gera confiança e fica na mente do seu cliente ideal quando ele precisar de um advogado."
+    },
+    {
+      question: "Eu sou tímido(a) para gravar vídeos. Vocês ajudam com roteiro e direção?",
+      answer: "Sim! Oferecemos suporte completo. Criamos roteiros detalhados, orientamos sobre postura e dicção, e ajudamos você a se sentir confortável na frente das câmeras. Muitos clientes começam tímidos e hoje gravam com naturalidade."
+    },
+    {
+      question: "Preciso investir em equipamentos profissionais?",
+      answer: "Não necessariamente. Um smartphone atual já produz vídeos e fotos de ótima qualidade. Conforme sua estratégia avança e você sentir necessidade, podemos orientar sobre investimentos em equipamentos mais profissionais."
+    },
+    {
+      question: "Minhas informações e dados do escritório ficam protegidos?",
+      answer: "Absolutamente! Trabalhamos com total confidencialidade e sigilo profissional. Todas as informações compartilhadas são tratadas com máxima segurança. Podemos firmar acordos de confidencialidade (NDA) se você preferir."
     }
   ];
 
