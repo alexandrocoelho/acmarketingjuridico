@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Mail, Instagram } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 import { SiTiktok } from "react-icons/si";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
@@ -26,8 +27,8 @@ const Contact = () => {
             size="lg"
             className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold text-lg px-8 py-6 shadow-glow group"
           >
-            <MessageCircle className="mr-2 w-5 h-5" />
-            Falar no WhatsApp
+            <FaWhatsapp className="mr-2 w-5 h-5" />
+            Falar no Whatsapp
           </Button>
           
           <Button
@@ -37,7 +38,7 @@ const Contact = () => {
             onClick={() => window.location.href = "mailto:alexandrocoelhopjr@gmail.com"}
           >
             <Mail className="mr-2 w-5 h-5" />
-            Enviar E-mail
+            Enviar e-mail
           </Button>
         </div>
 
