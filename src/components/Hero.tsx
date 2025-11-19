@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="text-center space-y-12 animate-fade-in-up">
           <div className="space-y-8">
             <p className="text-gold text-sm md:text-base font-bold tracking-[0.2em] uppercase">
-              Marketing Jurídico Estratégico
+              Marketing Jurídico
             </p>
             
             {/* Main title with glow effect */}
@@ -39,8 +39,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-muted-foreground text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed font-light">
-              Transforme sua presença digital em autoridade, atraia clientes de alto valor e 
-              destaque-se no mercado jurídico com estratégias personalizadas e resultados mensuráveis.
+              Conquiste mais visibilidade, fortaleça sua marca com um posicionamento digital sólido, aumente sua autoridade, construa caminho para nos clientes e gere novas oportunidades para o seu escritório com ações que realmente funcionam.
             </p>
           </div>
 
