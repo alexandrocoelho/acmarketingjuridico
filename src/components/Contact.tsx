@@ -28,7 +28,7 @@ const Contact = () => {
             className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold text-lg px-8 py-6 shadow-glow group"
           >
             <FaWhatsapp className="mr-2 w-5 h-5" />
-            Falar no Whatsapp
+            Falar no WhatsApp
           </Button>
           
           <Button
