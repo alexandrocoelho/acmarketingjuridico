@@ -39,7 +39,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-muted-foreground text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed font-light">
-              Conquiste mais visibilidade, fortaleça sua marca com um posicionamento digital sólido, aumente sua autoridade, construa caminho para novos clientes e gere novas oportunidades para o seu escritório com ações que realmente funcionam.
+              Aumente sua visibilidade, fortaleça sua autoridade e atraia novos clientes com estratégias que realmente funcionam.
             </p>
           </div>
 
