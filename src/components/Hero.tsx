@@ -60,7 +60,7 @@ const Hero = () => {
               variant="outline"
               className="border-2 border-gold text-gold hover:bg-gold hover:text-gold-foreground font-bold text-lg px-10 py-7 transition-all duration-300"
             >
-              Quero mais informações
+              Mais informações
             </Button>
           </div>
 
