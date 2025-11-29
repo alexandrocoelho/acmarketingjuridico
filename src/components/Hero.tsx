@@ -48,7 +48,7 @@ const Hero = () => {
             <Button
               onClick={handleWhatsAppClick}
               size="lg"
-              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
+              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-xl px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
             >
               Elevar o nível
               <FaWhatsapp className="mx-2 w-6 h-6" />
