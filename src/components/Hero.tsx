@@ -50,9 +50,9 @@ const Hero = () => {
               size="lg"
               className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
             >
-              <FaWhatsapp className="mr-2 w-6 h-6" />
               Elevar o nível
-              <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              <FaWhatsapp className="mx-2 w-6 h-6" />
+              <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
               onClick={scrollToServices}
