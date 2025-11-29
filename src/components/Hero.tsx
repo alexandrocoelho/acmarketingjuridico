@@ -48,11 +48,11 @@ const Hero = () => {
             <Button
               onClick={handleWhatsAppClick}
               size="lg"
-              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group flex items-center justify-center gap-2"
+              className="bg-[#25D366] hover:bg-[#1ea952] text-white font-extrabold text-2xl px-14 py-9 shadow-[0_0_40px_rgba(37,211,102,0.6)] hover:shadow-[0_0_60px_rgba(37,211,102,0.8)] hover:scale-105 transition-all duration-300 group flex items-center justify-center gap-3 animate-pulse-subtle"
             >
               Elevar o nível
-              <FaWhatsapp className="w-6 h-6" />
-              <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              <FaWhatsapp className="w-8 h-8" />
+              <ArrowRight className="w-7 h-7 group-hover:translate-x-2 transition-transform" />
             </Button>
             <Button
               onClick={scrollToServices}
