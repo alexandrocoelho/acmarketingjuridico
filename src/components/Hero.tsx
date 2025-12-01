@@ -1,5 +1,5 @@
-import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
@@ -45,23 +45,19 @@ const Hero = () => {
 
           {/* CTAs with improved spacing */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-4">
-            <MovingBorderButton
+            <Button
               onClick={handleWhatsAppClick}
-              borderRadius="0.75rem"
-              duration={3000}
-              containerClassName="h-auto w-auto"
-              borderClassName="bg-[radial-gradient(hsl(var(--gold))_40%,hsl(var(--gold))_60%,transparent_100%)]"
-              className="bg-background/80 text-gold font-bold text-lg px-10 py-7 hover:bg-background/60 transition-all border-0"
+              size="lg"
+              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
             >
-              <span className="flex items-center gap-2">
-                Elevar o nível
-                <FaWhatsapp className="w-6 h-6" />
-              </span>
-            </MovingBorderButton>
+              Elevar o nível
+              <FaWhatsapp className="ml-2 w-6 h-6" />
+            </Button>
             <Button
               onClick={scrollToServices}
               size="lg"
-              className="bg-card text-foreground hover:bg-card/80 font-bold text-lg px-10 py-7 transition-all"
+              variant="outline"
+              className="border-2 border-gold text-gold hover:bg-gold hover:text-gold-foreground font-bold text-lg px-10 py-7 transition-all duration-300"
             >
               Mais informações
             </Button>
