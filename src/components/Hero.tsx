@@ -50,7 +50,7 @@ const Hero = () => {
               duration={3000}
               containerClassName="h-auto w-auto"
               borderClassName="bg-[radial-gradient(hsl(var(--gold))_40%,hsl(var(--gold))_60%,transparent_100%)]"
-              className="bg-gold text-gold-foreground font-bold text-lg px-10 py-7 hover:shadow-glow-strong transition-all border-0"
+              className="bg-background/80 text-gold font-bold text-lg px-10 py-7 hover:bg-background/60 transition-all border-0"
             >
               <span className="flex items-center gap-2">
                 Elevar o nível
