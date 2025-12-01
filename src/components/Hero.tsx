@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { GradientButton } from "@/components/ui/gradient-button";
 import { FaWhatsapp } from "react-icons/fa";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
@@ -45,22 +44,20 @@ const Hero = () => {
 
           {/* CTAs with improved spacing */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-4">
-            <Button
+            <GradientButton
               onClick={handleWhatsAppClick}
-              size="lg"
-              className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-7 shadow-glow-strong hover:shadow-glow-strong transition-all duration-300 group"
+              className="text-lg px-10 py-7"
             >
               Elevar o nível
-              <FaWhatsapp className="ml-2 w-6 h-6" />
-            </Button>
-            <Button
+              <FaWhatsapp className="w-6 h-6" />
+            </GradientButton>
+            <GradientButton
               onClick={scrollToServices}
-              size="lg"
               variant="outline"
-              className="border-2 border-gold text-gold hover:bg-gold hover:text-gold-foreground font-bold text-lg px-10 py-7 transition-all duration-300"
+              className="text-lg px-10 py-7"
             >
               Mais informações
-            </Button>
+            </GradientButton>
           </div>
 
         </div>
