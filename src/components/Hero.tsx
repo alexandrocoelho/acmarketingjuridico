@@ -1,4 +1,5 @@
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
+import { Button } from "@/components/ui/button";
 import { FaWhatsapp } from "react-icons/fa";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
@@ -57,16 +58,13 @@ const Hero = () => {
                 <FaWhatsapp className="w-6 h-6" />
               </span>
             </MovingBorderButton>
-            <MovingBorderButton
+            <Button
               onClick={scrollToServices}
-              borderRadius="0.75rem"
-              duration={3000}
-              containerClassName="h-auto w-auto"
-              borderClassName="bg-[radial-gradient(hsl(var(--gold))_40%,hsl(var(--gold))_60%,transparent_100%)]"
-              className="bg-background/80 text-gold font-bold text-lg px-10 py-7 hover:bg-background/60 transition-all border-0"
+              size="lg"
+              className="bg-card text-foreground hover:bg-card/80 font-bold text-lg px-10 py-7 transition-all"
             >
               Mais informações
-            </MovingBorderButton>
+            </Button>
           </div>
 
         </div>
