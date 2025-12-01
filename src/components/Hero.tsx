@@ -1,4 +1,4 @@
-import { GradientButton } from "@/components/ui/gradient-button";
+import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { FaWhatsapp } from "react-icons/fa";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
@@ -44,20 +44,29 @@ const Hero = () => {
 
           {/* CTAs with improved spacing */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-4">
-            <GradientButton
+            <MovingBorderButton
               onClick={handleWhatsAppClick}
-              className="text-lg px-10 py-7"
+              borderRadius="0.75rem"
+              duration={3000}
+              containerClassName="h-auto w-auto"
+              borderClassName="bg-[radial-gradient(hsl(var(--gold))_40%,hsl(var(--gold))_60%,transparent_100%)]"
+              className="bg-gold text-gold-foreground font-bold text-lg px-10 py-7 hover:shadow-glow-strong transition-all border-0"
             >
-              Elevar o nível
-              <FaWhatsapp className="w-6 h-6" />
-            </GradientButton>
-            <GradientButton
+              <span className="flex items-center gap-2">
+                Elevar o nível
+                <FaWhatsapp className="w-6 h-6" />
+              </span>
+            </MovingBorderButton>
+            <MovingBorderButton
               onClick={scrollToServices}
-              variant="outline"
-              className="text-lg px-10 py-7"
+              borderRadius="0.75rem"
+              duration={3000}
+              containerClassName="h-auto w-auto"
+              borderClassName="bg-[radial-gradient(hsl(var(--gold))_40%,hsl(var(--gold))_60%,transparent_100%)]"
+              className="bg-background/80 text-gold font-bold text-lg px-10 py-7 hover:bg-background/60 transition-all border-0"
             >
               Mais informações
-            </GradientButton>
+            </MovingBorderButton>
           </div>
 
         </div>
